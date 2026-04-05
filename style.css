@@ -1,0 +1,82 @@
+/* style css portflio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #0d1117;
+  color: white;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 100px;
+}
+
+.content p {
+  max-width: 500px;
+  line-height: 1.6;
+  margin: 15px 0;
+  color: #bdbdbd;
+  font-size: 14px;
+}
+
+.content h1 {
+  font-size: 50px;
+}
+
+.content span {
+  color: #00ffff;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: #00ffff;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Image style */
+.image img {
+  width: 280px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #00ffff;
+              0 0 30px #00fffff;
+}
+
+/* social-icons */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons i {
+  margin-right: 15px;
+  padding: 10px;
+  border: 1px solid #00ffff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
